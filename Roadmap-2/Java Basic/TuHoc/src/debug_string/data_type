@@ -1,0 +1,11 @@
+Kiểu dữ liệu:
+- Mỗi biến đc tạo ra thì sẽ có 2 phần:
+  Địa chỉ: là gtri mình ko biết
+  Giá trị:
+- Stack-Heap:
+  Stack: nó lưu biến và giá trị cho kiểu nguyên thủy
+         nó lưu biến cho kiểu đối tượng
+         nó sẽ lưu địa chỉ với giá trị riêng
+  Heap: tất cả kiểu đối tượng đều phải nằm bn Heap
+
+
