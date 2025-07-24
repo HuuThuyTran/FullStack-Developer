@@ -1,0 +1,58 @@
+## có 3 kiểu lập trình
+1. Lập trình tuyến tính: là kỹ thuật lập trình truyền thống
+- Chương trình sẽ có một hàm và chạy tuần tự từ đầu đến cuối
+- Ưu điểm: dễ hiểu, dễ viết, chương trình đơn giản
+- Nhược điểm: khó bảo trì, khó mở rộng, không tái sử dụng được mã nguồn, ko áp dụng chương trình phức tạp
+
+
+
+
+2. Lập trình hướng cấu trúc (POP - Procedural Oriented Programming): là kỹ thuật lập trình truyền thống dựa trên hàm
+- Chương trình sẽ được chia thành các hàm, mỗi hàm sẽ thực hiện một nhiệm vụ cụ thể
+- Ưu điểm: dễ hiểu, dễ viết, chương trình đơn giản, dễ bảo trì, dễ mở rộng, tái sử dụng được mã nguồn
+- Nhược điểm: khó quản lý, khó mở rộng, không tái sử dụng được mã nguồn, không áp dụng chương trình phức tạp
+
+
+
+
+3. Lập trình hướng đối tượng (OOP - Object Oriented Programming): là kỹ thuật lập trình hiện đại dựa trên đối tượng (thực thể) ngoài đời thực
+- Chương trình sẽ được chia thành các đối tượng, mỗi đối tượng sẽ có các thuộc tính và phương thức riêng
+- Có 4 tính chất chính:
+  - Tính trừu tượng (Abstraction): ẩn đi những chi tiết không cần thiết, chỉ hiển thị những gì cần thiết
+  - Tính đóng gói (Encapsulation): đóng gói dữ liệu và phương thức trong một đối tượng, chỉ cho phép truy cập thông qua các phương thức
+  - Tính kế thừa (Inheritance): cho phép tạo ra các lớp con từ lớp cha, kế thừa các thuộc tính và phương thức của lớp cha
+  - Tính đa hình (Polymorphism): cho phép sử dụng cùng một tên phương thức nhưng với các đối tượng khác nhau
+
+
+
+ 4. Class & Object:
+ - Class (lớp): là một bản thiết kế (blueprint) cho các đối tượng, định nghĩa các thuộc tính và phương thức của đối tượng
+ - Object (đối tượng): là một thực thể (instance) của lớp, có các thuộc tính và phương thức riêng
+
+
+
+5. Phạm vi truy cập: có 2 loại
++ Access Modifier:
+- Có 4 loại:
+  1. Public: có thể truy cập từ bất kỳ đâu
+  2. Private: chỉ có thể truy cập trong lớp
+  3. Protected: chỉ có thể truy cập trong lớp và các lớp con
+  4. Default: chỉ có thể truy cập trong cùng một package (không khai báo gì thì mặc định là default)
+
++ Non-access Modifier:
+- Có 3 loại:
+  1. Static: thuộc về lớp, không thuộc về đối tượng, có thể truy cập từ bất kỳ đâu
+  2. Final: không thể thay đổi giá trị, không thể kế thừa
+  3. Abstract: không thể khởi tạo đối tượng, chỉ có thể kế thừa
+
++ Chỉ định khả năng truy cập phạm vi của môi trường, phương thức, hàm tạo, lớp
+
+
+
+6. Constructor:
+- Là một phương thức đặc biệt được gọi khi khởi tạo đối tượng
+- Có cùng tên với lớp, không có kiểu dữ liệu
+- nếu ko có constructor thì sẽ có constructor mặc định (tạo ra trong lúc complie mà mắt thường ko nhìn thấy đc)
+
+
+
