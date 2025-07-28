@@ -6,12 +6,10 @@
 
 
 
-
 2. Lập trình hướng cấu trúc (POP - Procedural Oriented Programming): là kỹ thuật lập trình truyền thống dựa trên hàm
 - Chương trình sẽ được chia thành các hàm, mỗi hàm sẽ thực hiện một nhiệm vụ cụ thể
 - Ưu điểm: dễ hiểu, dễ viết, chương trình đơn giản, dễ bảo trì, dễ mở rộng, tái sử dụng được mã nguồn
 - Nhược điểm: khó quản lý, khó mở rộng, không tái sử dụng được mã nguồn, không áp dụng chương trình phức tạp
-
 
 
 
@@ -54,7 +52,6 @@
 
 
 
-
 7. Từ khóa this:
 - Đại diện cho đối tượng hiện tại, được sử dụng để truy cập các thuộc tính và phương thức của đối tượng
 - Nếu mà ko có từ this, thì Java sẽ hiểu biến đó là biến cục bộ.
@@ -62,15 +59,28 @@
 
 
 
-8. Tinh chất của OOP:
+8. Từ khóa final:
+- Được sử dụng để khai báo các biến, phương thức hoặc lớp => không thể thay đổi giá trị hoặc không thể kế thừa
+- Biến (hằng số)
+- Phương thức (không thể ghi đè)
+- Lớp (không thể kế thừa)
+
+
+
+9. Tinh chất của OOP:
 a. Tính kế thừa (Inheritance):
 - Cho phép tạo ra các lớp con từ lớp cha, lớp con kế thừa các thuộc tính và phương thức của lớp cha
 - sử dụng: dùng từ khóa extends để kế thừa từ lớp cha
 - Lớp con có thể ghi đè (override) các phương thức của lớp cha để thay đổi hành vi của chúng
+- từ khóa super được sử dụng để gọi phương thức của lớp cha trong lớp con
+- mối quan hệ is-a: đc xác định thông qua từ khoá extends VD: Dog is-a Animal
+- mối quan hệ has-a: đc xác định thông qua từ khoá "sự sở hữu". VD: Person has-a Heart
+
 
 b. Tính đóng gói (Encapsulation): (Phải biết access modifier và getter/setter)
 - là việc che giấu thông tin bên trong đối tượng, chỉ cho phép truy ập thông qua các phương thức (getter, setter)
 - Giúp bảo vệ dữ liệu, tránh việc truy cập trực tiếp vào các thuộc tính của đối tượng
+
 
 c. Tính đa hình (Polymorphism):
 - Cho phép sử dụng cùng một tên phương thức nhưng với các đối tượng khác nhau
@@ -80,6 +90,7 @@ c. Tính đa hình (Polymorphism):
   | --------------- | -------------------------------------------------------- | ------------------------------------------------------- |
   | Overriding      | Ghi đè phương thức của lớp cha                           | Khi muốn thay đổi hành vi trong lớp con                 |
   | Overloading     | Nạp chồng: nhiều phương thức cùng tên nhưng khác tham số | Khi muốn cùng 1 hành động nhưng xử lý đầu vào khác nhau |
+
 
 d. Tính trừu tượng (Abstraction):
 - Là việc ẩn đi những chi tiết không cần thiết, chỉ hiển thị những gì cần thiết
