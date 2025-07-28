@@ -75,6 +75,10 @@ a. Tính kế thừa (Inheritance):
 - từ khóa super được sử dụng để gọi phương thức của lớp cha trong lớp con
 - mối quan hệ is-a: đc xác định thông qua từ khoá extends VD: Dog is-a Animal
 - mối quan hệ has-a: đc xác định thông qua từ khoá "sự sở hữu". VD: Person has-a Heart
+- Đặc điểm:
++ Java ko hỗ trợ đa kế thừa
++ Lớp con ko thể truy cập private từ lớp cha (phải dùng getter / setter)
++ Lớp con ko thể kế thừa constructor của lớp cha (Bởi vì, mỗi constructor nó cùng tên class nên ko thể kế thừa đc)
 
 
 b. Tính đóng gói (Encapsulation): (Phải biết access modifier và getter/setter)
