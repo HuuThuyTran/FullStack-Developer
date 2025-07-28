@@ -78,8 +78,8 @@ c. Tính đa hình (Polymorphism):
 - Overloading Method: là việc tạo ra nhiều phương thức cùng tên nhưng khác tham số, cho phép sử dụng cùng một tên phương thức với các tham số khác nhau
 - | Loại            | Mục tiêu chính                                           | Khi nào dùng                                            |
   | --------------- | -------------------------------------------------------- | ------------------------------------------------------- |
-  | Overriding  | Ghi đè phương thức của lớp cha                           | Khi muốn thay đổi hành vi trong lớp con                 |
-  | Overloading  | Nạp chồng: nhiều phương thức cùng tên nhưng khác tham số | Khi muốn cùng 1 hành động nhưng xử lý đầu vào khác nhau |
+  | Overriding      | Ghi đè phương thức của lớp cha                           | Khi muốn thay đổi hành vi trong lớp con                 |
+  | Overloading     | Nạp chồng: nhiều phương thức cùng tên nhưng khác tham số | Khi muốn cùng 1 hành động nhưng xử lý đầu vào khác nhau |
 
 d. Tính trừu tượng (Abstraction):
 - Là việc ẩn đi những chi tiết không cần thiết, chỉ hiển thị những gì cần thiết
