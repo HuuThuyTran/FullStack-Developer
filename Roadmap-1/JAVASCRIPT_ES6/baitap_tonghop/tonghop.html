@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quản lý sinh viên</title>
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="phongcach.css" />
+  </head>
+  <body>
+    <h1>Quản lý sinh viên</h1>
+
+    <!-- Hàng nhập tên + nút -->
+    <div class="row">
+      <div>
+        <input type="text" id="studentName" placeholder="Nhập tên sinh viên" />
+        <button id="addBtn">Thêm</button>
+      </div>
+
+      <div>
+        <input type="text" id="searchName" placeholder="Tìm kiếm...." />
+        <button id="sortBtn">
+          <i class="bx bx-swap-vertical"></i> Sắp xếp
+        </button>
+      </div>
+    </div>
+
+    <div class="row-2">
+      <button class="btnBlue">Xanh</button>
+      <button class="btnYellow">Vàng</button>
+      <button class="btnWhite">Trắng</button>
+    </div>
+
+    <!-- Danh sách sinh viên -->
+    <ul id="studentList"></ul>
+
+    <!-- Dòng phân cách -->
+    <div class="sep"></div>
+
+    <!-- Dòng hiển thị tổng số sinh viên -->
+    <div>
+      Tổng sinh viên:
+      <span id="total">0</span>
+    </div>
+
+    <!-- Dòng phân cách -->
+    <div class="sep"></div>
+
+    <!-- Tổng số ký tự -->
+    <div>Tổng số ký tự: <span id="totalChars">0</span></div>
+
+    <!-- Dòng phân cách -->
+    <div class="sep"></div>
+    
+    <!-- Thông báo khi không tìm thấy -->
+    <div id="notFound" class="muted"></div>
+  </body>
+  <script src="tonghop.js"></script>
+</html>

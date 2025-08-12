@@ -1,0 +1,136 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  max-width: 860px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #00fc76;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+#studentList {
+  margin: 8px 0 4px;
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  min-height: 56px;
+  transition: background-color 0.2s;
+}
+
+#studentList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #eee;
+}
+
+#studentList li:last-child {
+  border-bottom: none;
+}
+
+.name {
+  flex: 1;
+  cursor: pointer;
+}
+
+.name:hover {
+  font-weight: 700;
+  color: #d80000;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 17px;
+  border-radius: 999px;
+  background: #f7f7f7;
+  color: #666;
+  border: 1px solid #eee;
+}
+
+.match {
+  background: #fff4b8;
+}
+
+#notFound {
+  color: #b00020;
+  margin: 4px 0 0;
+  min-height: 20px;
+}
+
+.muted {
+  color: #666;
+}
+
+.sep {
+  height: 1px;
+  background: #eee;
+  margin: 12px 0;
+}
+
+button #sortBtn {
+  display: flex;
+  align-items: center;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnBlue {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.btnYellow {
+  background-color: rgb(240, 240, 24);
+  color: white;
+  cursor: pointer;
+}
+
+.btnWhite {
+  cursor: pointer;
+}
